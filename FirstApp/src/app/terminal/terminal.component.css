@@ -1,0 +1,6 @@
+pre {
+    border: black 1px solid;
+    font-size: 12pt;
+    overflow: auto;
+    padding-bottom: 50px;
+}
