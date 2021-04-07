@@ -1,1 +1,3 @@
-<app-terminal [width]="700" [height]="700"></app-terminal>
+<button (click)="terminal.print('Hello')">Click</button>
+<button (click)="terminal.clear()">Clear</button>
+<app-terminal #terminal1 [width]="700" [height]="700"></app-terminal>
